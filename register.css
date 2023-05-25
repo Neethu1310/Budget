@@ -1,0 +1,67 @@
+body{
+     background-image: url('images/bg\ img\ 2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    
+}
+.login{
+    width: 300px;
+    background-color:dimgray;
+    box-shadow: 20px 20px 20px 0 rgba(107, 103, 103, 0.426);
+    opacity: 0.90;
+
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.login-logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 60px;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.head{
+    color:Black;
+}
+.login-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+}
+.login-btn button{
+    background-image: linear-gradient(to  right, grey,black);
+    color: white;
+    border: 1px solid black;
+}
+ 
+.sign-in a{
+    color: black;
+}
+
+.sign-in a:hover{
+    color: blue;
+}
+
+/* modal  */
+#mainModal{
+    background-color: rgba(77, 77, 115, 0.148);
+}
+#secondModal{
+    background-color: rgba(141, 79, 79, 0.333);
+}
